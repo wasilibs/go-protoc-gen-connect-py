@@ -7,8 +7,8 @@ import (
 
 func main() {
 	tasks.Define(tasks.Params{
-		LibraryName: "protoc-gen-py",
-		LibraryRepo: "bufbuild/protoc-gen-py",
+		LibraryName: "protoc-gen-connectrpc",
+		LibraryRepo: "connectrpc/connect-py",
 		GoReleaser:  true,
 	})
 	boot.Main()
