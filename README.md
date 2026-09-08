@@ -15,13 +15,13 @@ Precompiled binaries are available in the [releases](https://github.com/wasilibs
 Alternatively, install the plugin you want using `go install`.
 
 ```bash
-$ go install github.com/wasilibs/go-protoc-gen-connect-py/cmd/protoc-gen-connectrpc@latest
+go install github.com/wasilibs/go-protoc-gen-connect-py/cmd/protoc-gen-connectrpc@latest
 ```
 
 To avoid installation entirely, it can be convenient to use `go run`
 
 ```bash
-$ go run github.com/wasilibs/go-protoc-gen-connect-py/cmd/protoc-gen-connectrpc@latest .
+go run github.com/wasilibs/go-protoc-gen-connect-py/cmd/protoc-gen-connectrpc@latest .
 ```
 
 [1]: https://github.com/connectrpc/connect-py
