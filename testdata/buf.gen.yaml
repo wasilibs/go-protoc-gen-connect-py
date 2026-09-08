@@ -2,4 +2,4 @@ version: v1
 plugins:
   - plugin: connect-py
     out: ../out/buf/py
-    path: ["go", "run", "../cmd/protoc-gen-connectrpc"]
+    path: [go, run, ../cmd/protoc-gen-connectrpc]
